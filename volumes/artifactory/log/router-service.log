@@ -1,0 +1,13 @@
+2021-03-09T07:44:02.237Z [jfrou] [INFO ] [1c10da0f5e2639e6] [bootstrap.go:72               ] [main                ] - Router (jfrou) service initialization started. Version: 7.15.2-1 Revision: c8ae57f7cbb88edb181a2c6de6272f39d5161798 PID: 3001 Home: /opt/jfrog/artifactory
+2021-03-09T07:44:02.238Z [jfrou] [INFO ] [1c10da0f5e2639e6] [bootstrap.go:75               ] [main                ] - JFrog Router IP: 172.19.0.2
+2021-03-09T07:44:02.245Z [jfrou] [INFO ] [1c10da0f5e2639e6] [bootstrap.go:175              ] [main                ] - System configuration encryption report:
+shared.newrelic.licenseKey: does not exist in the config file
+shared.security.joinKeyFile: file '/opt/jfrog/artifactory/var/etc/security/join.key' - already encrypted
+2021-03-09T07:44:02.330Z [jfrou] [INFO ] [1c10da0f5e2639e6] [bootstrap.go:80               ] [main                ] - JFrog Router Service ID: jfrou@01ezbxtt3hhj8bnnh0vzascxd4
+2021-03-09T07:44:02.331Z [jfrou] [INFO ] [1c10da0f5e2639e6] [bootstrap.go:81               ] [main                ] - JFrog Router Node ID: 981729be92a8
+2021-03-09T07:44:02.646Z [jfrou] [INFO ] [1c10da0f5e2639e6] [http_client_holder.go:155     ] [main                ] - System cert pool contents were loaded as trusted CAs for TLS communication
+2021-03-09T07:44:03.158Z [jfrou] [INFO ] [1c10da0f5e2639e6] [http_client_holder.go:175     ] [main                ] - Following certificates were successfully loaded as trusted CAs for TLS communication:
+[/opt/jfrog/artifactory/var/data/router/keys/trusted/access-root-ca.crt]
+2021-03-09T07:44:04.372Z [jfrou] [INFO ] [1c10da0f5e2639e6] [config_holder.go:107          ] [main                ] - Configuration update detected
+2021-03-09T07:44:08.510Z [jfrou] [INFO ] [1c10da0f5e2639e6] [join_executor.go:163          ] [main                ] - Cluster join: Retry 5: Service registry ping failed, will retry. Error: Get "http://localhost:8040/access/api/v1/system/ping": dial tcp 127.0.0.1:8040: connect: connection refused
+2021-03-09T07:44:13.520Z [jfrou] [INFO ] [1c10da0f5e2639e6] [join_executor.go:163          ] [main                ] - Cluster join: Retry 10: Service registry ping failed, will retry. Error: Get "http://localhost:8040/access/api/v1/system/ping": dial tcp 127.0.0.1:8040: connect: connection refused

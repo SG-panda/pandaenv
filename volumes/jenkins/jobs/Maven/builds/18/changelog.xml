@@ -1,0 +1,10 @@
+commit ce0c73bcef913ca3f981f7485f1bce9f5f477838
+tree 8063c3092c711918be09c24118e36a224f16ca61
+parent 602e1f59e0b9d506b0e5b5817d0b49d48c6b044d
+author Szymon <gamri24@gmail.com> 2021-03-08 20:43:43 +0000
+committer Szymon <gamri24@gmail.com> 2021-03-08 20:43:43 +0000
+
+    SG: change port in application.properties back to 8080
+
+
+:100644 100644 f620381b549eeb0c0e3db230b6b144edb4deef06 4c00e40debf74912d9b7c8da72b78461cde4dd86 M	src/main/resources/application.properties

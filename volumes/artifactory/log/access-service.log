@@ -1,0 +1,4 @@
+2021-03-09T07:44:45.077Z [jfac ] [INFO ] [778e4cd1a4a57f3a] [licationContextInitializer:162] [ocalhost-startStop-1] - Access (jfac) service initialization started. Version: 7.15.2 Revision: 71502900 PID: 3402 Home: /opt/jfrog/artifactory
+2021-03-09T07:44:45.530Z [jfac ] [INFO ] [778e4cd1a4a57f3a] [o.j.a.AccessApplication:50    ] [ocalhost-startStop-1] - Starting AccessApplication v7.15.2 on 981729be92a8 with PID 3402 (/opt/jfrog/artifactory/app/artifactory/tomcat/webapps/access/WEB-INF/lib/access-application-7.15.2.jar started by artifactory in /var/opt/jfrog/artifactory)
+2021-03-09T07:44:45.537Z [jfac ] [INFO ] [778e4cd1a4a57f3a] [o.j.a.AccessApplication:652   ] [ocalhost-startStop-1] - The following profiles are active: production
+2021-03-09T07:44:46.179Z [jfac ] [WARN ] [                ] [ackson2ObjectMapperBuilder:836] [background-preinit  ] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath

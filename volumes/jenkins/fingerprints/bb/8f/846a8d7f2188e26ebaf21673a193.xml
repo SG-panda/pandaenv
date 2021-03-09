@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-02-25 06:09:33.283 UTC</timestamp>
+  <md5sum>bb8f846a8d7f2188e26ebaf21673a193</md5sum>
+  <fileName>Credential id=GIT name=SG-Panda/****** (GitHub password)</fileName>
+  <usages>
+    <entry>
+      <string>Maven_2</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>CodePull</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>Maven</string>
+      <ranges>1-20</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

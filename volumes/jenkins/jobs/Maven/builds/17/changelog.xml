@@ -1,0 +1,10 @@
+commit 602e1f59e0b9d506b0e5b5817d0b49d48c6b044d
+tree c7c65edbe67cffbaa8b66270908a51f988f35766
+parent 71b8bbe7badf4de36ec6c83a77da7b303e017c9e
+author Szymon <gamri24@gmail.com> 2021-03-08 20:41:20 +0000
+committer Szymon <gamri24@gmail.com> 2021-03-08 20:41:20 +0000
+
+    SG: change port in application.properties
+
+
+:100644 100644 4c00e40debf74912d9b7c8da72b78461cde4dd86 f620381b549eeb0c0e3db230b6b144edb4deef06 M	src/main/resources/application.properties

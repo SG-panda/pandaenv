@@ -1,0 +1,78 @@
+commit 4d8cf39a69e9bbe605b80cb633d42059f13122d2
+tree 608fd93a04d320a6de5481676042c9b682463d08
+parent 5c819ba8eda3e01420cf0ccd0600fa21f2a7ae87
+author Szymon <gamri24@gmail.com> 2021-03-01 17:43:26 +0000
+committer Szymon <gamri24@gmail.com> 2021-03-01 17:43:26 +0000
+
+    SG: edit PandaApplicationSeleniumTest.java and rm geckodriver-v0.27, geckodriver
+
+
+:100644 100644 f620381b549eeb0c0e3db230b6b144edb4deef06 4c00e40debf74912d9b7c8da72b78461cde4dd86 M	src/main/resources/application.properties
+:100644 000000 ffeb21a579aebe49ae646530e404aee3386e0df4 0000000000000000000000000000000000000000 D	src/main/resources/geckodriver
+:100644 000000 300db4b36010b70e0d438c4c20f7b4e0cab71287 0000000000000000000000000000000000000000 D	src/main/resources/geckodriver-v0.27
+:100644 100644 b6c478862baaafca363d3aa09d3aaa7970377b24 393a961d37e125835b07db72d9f36584ad1d1ab6 M	src/test/java/pl/pandait/panda/PandaApplicationSeleniumTest.java
+commit 6e02040fe788a1089d2883d68e0e2db95f80c21d
+tree c297dce1b45713f9ca793f9af922aaabb0ca4926
+parent 294eafa42cca448ebd45938e7643796e54a2d485
+author h.stasiuk <h.stasiuk@zoovu.com> 2021-02-18 14:52:00 +0100
+committer h.stasiuk <h.stasiuk@zoovu.com> 2021-02-18 14:52:00 +0100
+
+    Selenium configuration update
+
+
+:100644 100644 8be8d3fa9f8fb27bf48101aa93570d9788197076 e0c996b759174b9da515728411ab31f2473ffc10 M	pom.xml
+:100644 100644 a1651ce93dbf1191321bb7a0fc70a1ac50c63867 aa05d8945e2a6bee28eb2a7574ad630acb2d8515 M	src/main/java/pl/pandait/panda/PandaApplication.java
+:100644 100644 04ab08c04d75b237feaa138f7cb9fef9109c44e7 1437b4f88fd78762ed6f38e41d8f26cc64140de8 M	src/test/java/pl/pandait/panda/HelloControllerTest.java
+:100644 100644 98bb17d6707511886064e0900ed02450316cc99e b6c478862baaafca363d3aa09d3aaa7970377b24 M	src/test/java/pl/pandait/panda/PandaApplicationSeleniumTest.java
+:100644 100644 12b5eeeedc6d3d26e7133a6908aec224d2e2d9ec b8c1ebde0489ee8634eea6e4111f302e513cc122 M	src/test/java/pl/pandait/panda/PandaApplicationTest.java
+commit 294eafa42cca448ebd45938e7643796e54a2d485
+tree 4535a4f5bd6f8f9c369b649fbc9f399d675bd8bb
+parent 0edc50aca0b9f744a733ab5567ab8bae4438517a
+author PandaAcademy <panda@pandait.com> 2021-01-31 18:03:01 +0000
+committer PandaAcademy <panda@pandait.com> 2021-01-31 18:58:46 +0000
+
+    Selenium Grid
+
+
+:100644 000000 3e151bea1e4e1d67894daa964fceeb6241f57f0d 0000000000000000000000000000000000000000 D	Dockerfile
+:100644 100644 14cb6bf53d3abd5970f992db216396ce0a40a060 6d04e52c5b49dd1739743a709925dc7472ba88de M	README.md
+:100644 100644 886e5ee65e9a56622e849d8b027b652324744bff 8be8d3fa9f8fb27bf48101aa93570d9788197076 M	pom.xml
+:100644 100644 f949ef120437359c0ddf0e911f467c86c7d48ce2 a04d673b151fe825e84ba5ef65c0e9c8afa6e479 M	src/main/java/pl/pandait/panda/HelloController.java
+:100644 100644 8b137891791fe96927ad78e64b0aad7bded08bdc f620381b549eeb0c0e3db230b6b144edb4deef06 M	src/main/resources/application.properties
+:000000 100644 0000000000000000000000000000000000000000 ffeb21a579aebe49ae646530e404aee3386e0df4 A	src/main/resources/geckodriver
+:000000 100644 0000000000000000000000000000000000000000 300db4b36010b70e0d438c4c20f7b4e0cab71287 A	src/main/resources/geckodriver-v0.27
+:100755 000000 ff08a41bc20d4b56d4681f9132ac3f790bfd1e81 0000000000000000000000000000000000000000 D	src/resources/geckodriver
+:100644 100644 4ced79ded746668bf82db136cb02015b57960fbb 04ab08c04d75b237feaa138f7cb9fef9109c44e7 M	src/test/java/pl/pandait/panda/HelloControllerTest.java
+:100644 100644 1b0677dee6946298b510273b70c2aa40f429123e 98bb17d6707511886064e0900ed02450316cc99e M	src/test/java/pl/pandait/panda/PandaApplicationSeleniumTest.java
+commit 0edc50aca0b9f744a733ab5567ab8bae4438517a
+tree 6b470a2ca0dcef9ecf5dcc7a5a675f38099b29ef
+parent 4d15d74a4b3c498eebc8e82e61e35dcb4a242343
+author PandaAcademy <panda@pandait.com> 2021-01-31 17:53:15 +0000
+committer PandaAcademy <panda@pandait.com> 2021-01-31 17:53:15 +0000
+
+    Docker module
+
+
+:000000 100644 0000000000000000000000000000000000000000 3e151bea1e4e1d67894daa964fceeb6241f57f0d A	Dockerfile
+:100644 100644 3c3844c20b500c12d105726751dc03194d583b6a 886e5ee65e9a56622e849d8b027b652324744bff M	pom.xml
+:100644 100644 a04d673b151fe825e84ba5ef65c0e9c8afa6e479 f949ef120437359c0ddf0e911f467c86c7d48ce2 M	src/main/java/pl/pandait/panda/HelloController.java
+:100644 100644 bafddced850ad5cb9c8b100b9daf64dae4e70202 8b137891791fe96927ad78e64b0aad7bded08bdc M	src/main/resources/application.properties
+:000000 100644 0000000000000000000000000000000000000000 f8bf565455a66d5e9ff9f6199f70dfa53f0c9621 A	src/main/resources/templates/greeting_template.html
+:000000 100755 0000000000000000000000000000000000000000 ff08a41bc20d4b56d4681f9132ac3f790bfd1e81 A	src/resources/geckodriver
+:000000 100644 0000000000000000000000000000000000000000 4ced79ded746668bf82db136cb02015b57960fbb A	src/test/java/pl/pandait/panda/HelloControllerTest.java
+:000000 100644 0000000000000000000000000000000000000000 1b0677dee6946298b510273b70c2aa40f429123e A	src/test/java/pl/pandait/panda/PandaApplicationSeleniumTest.java
+:000000 100644 0000000000000000000000000000000000000000 12b5eeeedc6d3d26e7133a6908aec224d2e2d9ec A	src/test/java/pl/pandait/panda/PandaApplicationTest.java
+commit 4d15d74a4b3c498eebc8e82e61e35dcb4a242343
+tree 166b617429194103d576e6ec8a2122dc71a1c2ef
+parent d7acb96dcfe867de56691044b44becd1863e855e
+author PandaAcademy <panda@pandait.com> 2021-01-31 17:40:18 +0000
+committer PandaAcademy <panda@pandait.com> 2021-01-31 17:40:18 +0000
+
+    Local selenium tests
+
+
+:100644 100644 6f4ab3cf779f7f0f36c00ad6df6518040a395c6d 3c3844c20b500c12d105726751dc03194d583b6a M	pom.xml
+:100644 100644 a8dd071edd9797ea3ce1dbce6c9d5d0682cc2a49 a04d673b151fe825e84ba5ef65c0e9c8afa6e479 M	src/main/java/pl/pandait/panda/HelloController.java
+:100644 100644 8b137891791fe96927ad78e64b0aad7bded08bdc bafddced850ad5cb9c8b100b9daf64dae4e70202 M	src/main/resources/application.properties
+:100644 000000 f8bf565455a66d5e9ff9f6199f70dfa53f0c9621 0000000000000000000000000000000000000000 D	src/main/resources/templates/greeting.html
+:100644 000000 c2398c1fabe4cf44b2091ec9dbed8e30cf3a6b6c 0000000000000000000000000000000000000000 D	src/test/java/pl/pandait/panda/PandaApplicationTests.java

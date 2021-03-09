@@ -1,0 +1,27 @@
+Started by user [8mha:////4IhG+WrLFq66InhMD3xMYDAPuU8U6w1TjXhEhI9QEUfHAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9gsS8lEQACjKVYMAAAAA=[0mpanda
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/CodePull
+The recommended git tool is: NONE
+using credential GIT
+Cloning the remote Git repository
+Cloning repository https://github.com/SG-panda/panda_application.git
+ > git init /var/jenkins_home/workspace/CodePull # timeout=10
+Fetching upstream changes from https://github.com/SG-panda/panda_application.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+using GIT_ASKPASS to set credentials GitHub password
+ > git fetch --tags --force --progress -- https://github.com/SG-panda/panda_application.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/SG-panda/panda_application.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 8f2ad2e48422e162b65dd11b24dbd8930e0e97ed (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8f2ad2e48422e162b65dd11b24dbd8930e0e97ed # timeout=10
+Commit message: "SG: Add Dockerfile"
+First time build. Skipping changelog.
+[CodePull] $ /bin/sh -xe /tmp/jenkins13953086831390091952.sh
++ !#/bin/bash
+/tmp/jenkins13953086831390091952.sh: 2: /tmp/jenkins13953086831390091952.sh: !#/bin/bash: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,87 @@
+Started by user [8mha:////4IhG+WrLFq66InhMD3xMYDAPuU8U6w1TjXhEhI9QEUfHAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9gsS8lEQACjKVYMAAAAA=[0mpanda
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/CodePull
+The recommended git tool is: NONE
+using credential GIT
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/SG-panda/panda_application.git # timeout=10
+Fetching upstream changes from https://github.com/SG-panda/panda_application.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+using GIT_ASKPASS to set credentials GitHub password
+ > git fetch --tags --force --progress -- https://github.com/SG-panda/panda_application.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 8f2ad2e48422e162b65dd11b24dbd8930e0e97ed (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8f2ad2e48422e162b65dd11b24dbd8930e0e97ed # timeout=10
+Commit message: "SG: Add Dockerfile"
+ > git rev-list --no-walk 8f2ad2e48422e162b65dd11b24dbd8930e0e97ed # timeout=10
+[CodePull] $ /bin/bash /tmp/jenkins6614463657739942854.sh
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.2.4.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->	  
+	</parent>
+	<groupId>pl.pandait</groupId>
+	<artifactId>panda</artifactId>
+	<version>0.0.1</version>
+	<name>panda</name>
+	<description>Demo project for Spring Boot</description>
+
+	<properties>
+		<java.version>11</java.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+			<exclusions>
+				<exclusion>
+					<groupId>org.junit.vintage</groupId>
+					<artifactId>junit-vintage-engine</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+	<distributionManagement>
+		<repository>
+		  <id>artifactory</id>
+		  <name>release</name>
+		  <url>http://192.168.44.44:8081/artifactory/libs-release-local</url>
+		</repository>
+		<snapshotRepository>
+		  <id>artifactory</id>
+		  <name>snapshots</name>
+		  <url>http://192.168.44.44:8081/artifactory/libs-snapshot-local</url>
+		</snapshotRepository>
+	  </distributionManagement>
+	
+</project>
+Finished: SUCCESS

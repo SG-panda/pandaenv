@@ -1,0 +1,4 @@
+2021-03-09T07:44:44.075Z [jfrt ] [INFO ] [adf116589225245f] [o.a.c.h.HaNodeProperties:65   ] [ocalhost-startStop-2] - Artifactory is running in non-clustered mode.
+2021-03-09T07:44:44.162Z [jfrt ] [INFO ] [adf116589225245f] [tifactoryHomeConfigListener:85] [ocalhost-startStop-2] - Resolved Home: '/opt/jfrog/artifactory
+2021-03-09T07:44:46.966Z [jfrt ] [INFO ] [                ] [o.j.c.w.FileWatcher:147       ] [Thread-9            ] - Starting watch of folder configurations
+2021-03-09T07:44:47.553Z [jfrt ] [WARN ] [adf116589225245f] [c.z.h.u.DriverDataSource:70   ] [ocalhost-startStop-2] - Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
